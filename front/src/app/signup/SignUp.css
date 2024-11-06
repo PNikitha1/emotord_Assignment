@@ -1,0 +1,182 @@
+.signup-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    background-color: #5c67f2;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background: url('/path/to/logo.svg') no-repeat center/contain; /* Replace with your logo */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .right-panel {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .sign-up-button {
+    background-color: #5c67f2;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-text {
+    margin-top: 15px;
+  }
+  
+  .login-text a {
+    color: #5c67f2;
+    text-decoration: none;
+  }
+  .signup-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  background-color: #5c67f2;
+  color: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background: url('/path/to/logo.svg') no-repeat center/contain; /* Replace with your logo */
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.right-panel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.sign-up-button {
+  background-color: #5c67f2;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-text {
+  margin-top: 15px;
+}
+
+.login-text a {
+  color: #5c67f2;
+  text-decoration: none;
+}
+a {
+    text-decoration: none; /* Removes underline */
+    color: #ffffff; /* Default link color */
+  }
+  
+  a:hover {
+    color: #ff6600; /* Set your desired hover color */
+  }
+  
+  

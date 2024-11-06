@@ -1,0 +1,37 @@
+.sidebar {
+    width: 250px;
+    background-color: #5c67f2;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none; /* Removes underline */
+    color: #ffffff; /* Default link color */
+  }
+  
+  a:hover {
+    color: #ff0000; /* Set your desired hover color */
+  }
+  .sidebar-footer {
+    margin-top: auto;
+    font-size: 14px;
+  }
+  
